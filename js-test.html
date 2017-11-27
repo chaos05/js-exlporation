@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Example</title>
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.4.1.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+<!--
+  <script src="https://code.jquery.com/qunit/qunit-2.4.1.js"></script>
+  <script src="/Users/wulff/Javascript/test/test.js"></script>
+-->
+
+<p id="user"></p>
+<p id="obj"></p>
+
+<script src="/Users/wulff/Javascript/user.js"></script>
+  <script>
+document.getElementById("user").innerHTML = 
+"User name: " + newUser.name + "<br />" +
+"alias: '" + newUser.alias + "'";
+
+document.getElementById("obj").innerHTML = 
+"obj: '" + obj.value + "<br />" +
+"objB: " + objB.value + "'";
+</script>
+</body>
+
+</html>
